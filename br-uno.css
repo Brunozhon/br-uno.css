@@ -23,3 +23,25 @@ body {
   flex: -webkit-calc(100% - 75%);
   flex: -moz-calc(100% - 75%);
 }
+.third {
+  flex: calc(100% / 3%);
+  flex: -webkit-calc(100% / 3%);
+  flex: -moz-calc(100% / 3%);
+}
+.twothird {
+  flex: calc(100% / 3% + 100% / 3%);
+  flex: -webkit-calc(100% / 3% + 100% / 3%);
+  flex: -moz-calc(100% / 3% + 100% / 3%);
+}
+a.showlink:after {
+  content: " (" attr(href) ")";
+}
+abbr:after /*, acronym:after */ {
+  content: "(" attr(title) ")";
+}
+.container {
+  margin: 0px 16px;
+}
+.panel {
+  margin: 16px;
+}
