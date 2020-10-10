@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+body {
+  magrin: 0px;
+  padding: 0px;
+}
+.three-quarter {
+  flex: calc(100% - 25%);
+  flex: -webkit-calc(100% - 25%); /*Chrome and Safari*/
+  flex: -moz-calc(100% - 25%); /*Internet Explorer*/
+}
+.half {
+  flex: calc(100% / 2%);
+  flex: -webkit-calc(100% / 2%);
+  flex: -moz-calc(100% / 2%);
+}
+.quarter {
+  flex: calc(100% - 75%);
+  flex: -webkit-calc(100% - 75%);
+  flex: -moz-calc(100% - 75%);
+}
